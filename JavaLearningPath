@@ -9,7 +9,7 @@ Java is majorly used for Mobile development, Desktop GUI applications, cloud-bas
 ## Creating a Java file
 
 > [!Note]
-> Java code need a compiler as a compiler translates your source code instructions into Java bytecode instructions. In other words, the compiler takes code that you can write and understand and translates it into code that a computer can execute.
+> Java code needs a compiler as a compiler translates your source code instructions into Java bytecode instructions. In other words, the compiler takes code that you can write and understand and translates it into code that a computer can execute.
 >
 > For the sake of convenience, we have already installed JDK in this sandbox environment, so we can get started with the coding.
 
@@ -63,6 +63,20 @@ Press "Ctrl + S" (Cmd + S for Mac user) to save this file.
 
 ```bash
 javac Main.java
+```
+This command compiles your code using the Java compiler and converts the Java source file into java bytecode, this conversion also creates a `.class` with the same name file name and in the same directory as your `.java` file. 
+
+2. Type the `dir` command in the terminal to look at all the files inside your current directory
+
+```bash
+dir
+```
+
+Output:
+
+```bash
+Output of dir
+
 ```
 
 ## Executing your first Java program
