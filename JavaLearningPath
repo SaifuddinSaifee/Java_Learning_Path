@@ -1,0 +1,83 @@
+# Java Learning path
+
+## Introduction
+
+Java is a platform independent language which is used for creating high-performance applications. Cross platform language means that the language can work across multiple types of platforms or operating environments.
+
+Java is majorly used for Mobile development, Desktop GUI applications, cloud-based application, Web-based application and even game development and much more. But those are advance function of Java. So, let’s dive into coding.
+
+## Creating a Java file
+
+> [!Note]
+> Java code need a compiler as a compiler translates your source code instructions into Java bytecode instructions. In other words, the compiler takes code that you can write and understand and translates it into code that a computer can execute.
+>
+> For the sake of convenience, we have already installed JDK in this sandbox environment, so we can get started with the coding.
+
+We recommend you to use the sandbox provided along with this module to keep the learning process easy. We also recommend you to type the provided snippets manually as much as possible.
+
+1. We know that Java has already been installed in this sandbox, so let's have a look at the same. Once the sandbox is active it should look something like this.
+
+```bash
+[yourName]@Azure:~$
+```
+
+Now, type the following command into the terminal and hit the Enter key.
+
+```bash
+java --version
+```
+
+This command will give you an overview of the Java version, build number and few more technical details. When executed successfully, the terminal should display something like this.
+
+```output
+openjdk 11.0.9 2020-10-20
+OpenJDK Runtime Environment Microsoft.13779 (build 11.0.9+8-20200922)
+OpenJDK 64-Bit Server VM Microsoft.13779 (build 11.0.9+8-20200922, mixed mode)
+```
+
+2. Now let's create a Java file. Type the following commands.
+
+```bash
+code Main.java
+```
+
+This command will create a file named "Main.java" in the current directory. This command will also open an editor for you in this sandbox that let's you write code in this file.
+
+## Writing the code
+
+Once You can Type or paste this code in the editor. We will look at how this code works in the next module.
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+```
+Press "Ctrl + S" (Cmd + S for Mac user) to save this file.
+
+## Executing your first Java program
+
+1. Head back to the terminal and type this code,
+
+```bash
+javac Main.java
+```
+
+## Executing your first Java program
+
+Before we write our first program, the question arises “What is a program?”, A program is a set of instructions in a sequence written in a certain programming language to perform a task by the computer. Here’s an example,
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+```
+
+Let's perform a breakdown of this code,
+
+`public Class Main` : We start writing the code by creating a `class` with the name `Main` (it's a good practice to always start any `class` name with an uppercase letter). `Class` is a group of properties and functions known as `methods` (more about `methods` in further modules). The keyword `public` is an access modifier i.e. it shows that this `Main` class can be accessed from anywhere in code.
